@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+html {
+	color black;
+}
+
+h1 {
+	text-align : center;
+	margin : 50px 0px 80px 0px;
+
+}
+
+
+.zonebouton {
+	display : flex;
+	flex-direction : column;
+	align-items : center;	
+}
+
+.bouton_accueil {
+	margin : 20px;
+	padding : 20px;
+	font-size: 24px;
+	border : 1px solid grey;
+	border-radius : 20px;
+}
+
+.zonebouton_historique {
+		display : flex;
+		flex-direction : row;
+		align-items : center;
+		justify-content : center;
+}
+
+.container {
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content : center;
+}
+
+
+.bouton_historique {
+	margin : 20px;
+	padding : 10px;
+	font-size: 18px;
+	border : 1px solid grey;
+	border-radius : 10px;
+	width : 200px;
+}
+
+a {
+	text-decoration : none;
+	color : inherit;
+	
+}
+
+.formulaire {
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content : center;
+}
+
+form {
+	text-align : left;
+}
+
+input {
+	margin : 10px;
+	height : 25px;
+}
+
+.repas {
+	height : 150px;
+	text-align : 
+}
+
+table {
+	 border-collapse: collapse;
+
+}
+
+table td, table tr {
+	border : 1px solid black;
+	padding : 15px;
+}
+
+thead {
+	background-color : #c6c6c6;
+	font-weight : bold; 
+
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {
+	background-color : #ddd;
+}
+
+}
